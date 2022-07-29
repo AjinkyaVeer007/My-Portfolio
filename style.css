@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.nav li{
+    padding-left: 80px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #D61C4E;
+}
+
+.nav a{
+    color: #D61C4E;
+    text-decoration: none;
+}
+
+
+.nav a:hover{
+    color: #FFF80A;
+}
+
+.nav li:hover{
+    color: #FFF80A;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.header img{
+    width: 500px;
+}
+
+.header h3{
+    color: #293462;
+    font-size: 40px;
+}
+
+.header h3 span{
+    color: #ffe100;
+}
+
+.header p{
+    color: #293462;
+}
+
+.header h1{
+    color: #D61C4E;
+    font-size: 50px;
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fffcac;
+    margin: 20px 100px;
+    padding: 40px 0px;
+    border-radius: 10px;
+}
+
+.about-me h1{
+    font-size: 55px;
+    color: #D61C4E;
+}
+
+.about-me li{
+    color: #293462 ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title{
+    text-align: center;
+    margin: 40px 80px;
+}
+
+.title h1{
+    color: #293462;
+}
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0px 8px;
+    border-radius: 10px;
+}
+
+.cart img{
+    width: 400px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.links h5{
+    padding: 10px 70px;
+    color: #293462;
+}
+
+.links h5 a{
+    text-decoration: none;
+}
+
+.scroll{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #ffe100;    
+}
+
+
+.footer{
+    text-align: center;
+    margin: 80px 200px;
+    color: #D61C4E;
+    background-color: #fffcac;
+    padding: 20px;
+    border-radius: 10px;
+}
