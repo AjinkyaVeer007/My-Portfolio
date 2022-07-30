@@ -132,7 +132,8 @@ html {
     align-items: center;
     overflow: auto;
     white-space: nowrap;
-    background-color: #ffe100;    
+    background-color: #ffe100;
+    padding: 10px 0px;    
 }
 
 
